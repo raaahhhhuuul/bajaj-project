@@ -184,9 +184,9 @@ export const Route = createFileRoute("/api/public/bfhl")({
 
           return new Response(
             JSON.stringify({
-              user_id: "john_doe_17091999",
-              email_id: "john@xyz.com",
-              college_roll_number: "ABCD123",
+              user_id: "raaahhhhuuul",
+              email_id: "rahultester@example.com",
+              college_roll_number: "RA2311028020045",
               total_trees: trees.length,
               total_cycles: cycles.length,
               largest_tree_root: largest?.root ?? null,
