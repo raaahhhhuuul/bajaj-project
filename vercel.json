@@ -5,6 +5,14 @@
   "outputDirectory": "dist/client",
   "rewrites": [
     {
+      "source": "/bfhl",
+      "destination": "/api/bfhl"
+    },
+    {
+      "source": "/api/public/bfhl",
+      "destination": "/api/bfhl"
+    },
+    {
       "source": "/api",
       "destination": "/api/index"
     },
